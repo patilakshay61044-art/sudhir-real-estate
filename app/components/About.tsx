@@ -27,9 +27,9 @@ export default function About() {
             <p className="text-gray-600 text-lg mt-6 leading-relaxed">
               As a California REALTOR® serving San Diego, my goal is simple—to
               provide honest guidance, professional service, and a smooth real
-              estate experience for every client. Whether you're buying your
+              estate experience for every client. Whether you&apos;re buying your
               first home, selling a property, or exploring investment
-              opportunities, I'm committed to helping you make informed
+              opportunities, I&apos;m committed to helping you make informed
               decisions with confidence.
             </p>
 

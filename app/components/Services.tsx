@@ -52,7 +52,7 @@ export default function Services() {
           </h2>
 
           <p className="text-gray-600 text-lg mt-5 animate-fade-up-delay-2">
-            Whether you're buying, selling, or looking for professional
+            Whether you&apos;re buying, selling, or looking for professional
             guidance, I am committed to providing honest advice, responsive
             communication, and personalized service throughout your real estate
             journey.

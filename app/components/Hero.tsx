@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-white/80 text-lg md:text-xl mt-7 leading-relaxed max-w-xl animate-fade-up-delay-2">
-            Whether you're buying your first home, selling a property, or
+            Whether you&apos;re buying your first home, selling a property, or
             exploring investment opportunities, I provide honest guidance,
             personalized service, and local market expertise to help you make
             confident real estate decisions.

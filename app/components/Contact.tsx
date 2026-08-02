@@ -7,10 +7,10 @@ export default function Contact() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-brand-600 font-semibold uppercase tracking-[0.2em] text-sm">Get In Touch</p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-gray-900 mt-4">
-            Let's Discuss Your Real Estate Goals
+            Let&apos;s Discuss Your Real Estate Goals
           </h2>
           <p className="text-gray-600 text-lg mt-6">
-            Whether you're buying, selling, or investing in San Diego, I'm here to help.
+            Whether you&apos;re buying, selling, or investing in San Diego, I&apos;m here to help.
           </p>
         </div>
 
