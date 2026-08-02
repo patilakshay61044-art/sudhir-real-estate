@@ -9,7 +9,7 @@ export default function Footer() {
               Ready to Achieve Your Real Estate Goals?
             </h3>
             <p className="text-white/60 mt-2">
-              Whether you're buying, selling, or investing in San Diego, I'm
+              Whether you&apos;re buying, selling, or investing in San Diego, I&apos;m
               here to guide you every step of the way.
             </p>
           </div>
