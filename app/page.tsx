@@ -3,8 +3,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import WhyChooseMe from "./components/WhyChooseMe";
-import AreasServed from "./components/AreasServed";
-import WhyWorkWithSudhir from "./components/WhyWorkWithSudhir";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -16,8 +14,6 @@ export default function Home() {
       <About />
       <Services />
       <WhyChooseMe />
-      <AreasServed />
-      <WhyWorkWithSudhir />
       <Contact />
       <Footer />
     </main>

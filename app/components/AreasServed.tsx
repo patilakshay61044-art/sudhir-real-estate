@@ -2,12 +2,6 @@ import { MapPin } from 'lucide-react';
 
 const areas = [
   'San Diego',
-  'La Jolla',
-  'Coronado',
-  'Pacific Beach',
-  'Del Mar',
-  'Chula Vista',
-  'North Park',
 ];
 
 export default function AreasServed() {

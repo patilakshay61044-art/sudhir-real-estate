@@ -17,7 +17,7 @@ export default function Header() {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Services', href: '#services' },
-    { label: 'Areas', href: '#areas' },
+    { label: 'Service Area', href: '#areas' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -34,8 +34,13 @@ export default function Header() {
           <span className="font-serif text-2xl md:text-3xl font-bold text-brand-800">
             Sudhir Patil
           </span>
+
           <span className="text-xs uppercase tracking-[0.2em] text-gray-500">
-            San Diego REALTOR®
+            California REALTOR®
+          </span>
+
+          <span className="text-[10px] text-gray-400 mt-1">
+            DRE #02387796
           </span>
         </a>
 
@@ -60,11 +65,12 @@ export default function Header() {
             <Phone className="w-4 h-4" strokeWidth={2} />
             <span>(425) 533-3478</span>
           </a>
+
           <a
             href="#contact"
             className="bg-brand-700 text-white px-7 py-3.5 rounded-full text-sm font-semibold hover:bg-brand-800 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 shadow-md shadow-brand-700/20"
           >
-            Book Consultation
+            Get Started
           </a>
         </div>
 
@@ -73,7 +79,11 @@ export default function Header() {
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
-          {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {mobileOpen ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <Menu className="w-6 h-6" />
+          )}
         </button>
       </div>
 
@@ -90,6 +100,7 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+
             <a
               href="tel:+14255333478"
               className="flex items-center gap-2 py-3 px-4 text-gray-700 font-medium"
@@ -97,12 +108,13 @@ export default function Header() {
               <Phone className="w-4 h-4" strokeWidth={2} />
               (425) 533-3478
             </a>
+
             <a
               href="#contact"
               onClick={() => setMobileOpen(false)}
               className="mt-2 bg-brand-700 text-white px-6 py-3.5 rounded-full text-center text-sm font-semibold hover:bg-brand-800 transition"
             >
-              Book Consultation
+              Get Started
             </a>
           </nav>
         </div>
