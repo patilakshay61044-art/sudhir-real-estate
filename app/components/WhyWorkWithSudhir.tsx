@@ -10,12 +10,12 @@ import {
 const features = [
   {
     title: "Client-First Service",
-    desc: "Every client receives personalized attention, honest advice, and dedicated support throughout the buying or selling process.",
+    desc: "Every client receives personalized attention, honest advice and dedicated support throughout the buying or selling process.",
     icon: Heart,
   },
   {
     title: "Transparent Communication",
-    desc: "Clear updates, prompt responses, and complete transparency from our first conversation to closing day.",
+    desc: "Clear updates, prompt responses and complete transparency from our first conversation to closing day.",
     icon: MessageSquare,
   },
   {
@@ -30,12 +30,12 @@ const features = [
   },
   {
     title: "Guidance Every Step",
-    desc: "Whether you're buying your first home or selling a property, you'll have support at every stage.",
+    desc: "Whether you're buying your first home, selling a property, investing or exploring property management, you'll have support at every stage.",
     icon: Compass,
   },
   {
     title: "Integrity & Trust",
-    desc: "Building long-term relationships through professionalism, honesty, and exceptional client care.",
+    desc: "Building long-term relationships through professionalism, honesty and exceptional client care.",
     icon: ShieldCheck,
   },
 ];
@@ -54,7 +54,7 @@ export default function WhyWorkWithSudhir() {
           </h2>
 
           <p className="text-gray-600 text-lg mt-5 animate-fade-up-delay-2">
-            Providing honest guidance, professional service, and a personalized
+            Providing honest guidance, professional service and a personalized
             real estate experience for every client.
           </p>
         </div>

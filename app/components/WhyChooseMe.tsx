@@ -1,12 +1,12 @@
 const reasons = [
   {
     title: 'Deep Local Knowledge',
-    description: 'I know every neighborhood, school district, and market trend that matters to your decision.',
+    description: 'I know every neighborhood, school district and market trend that matters to your decision.',
     icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z',
   },
   {
     title: 'Client-First Approach',
-    description: 'Your goals are my priority. I listen, advise honestly, and never push a sale that isn\'t right for you.',
+    description: 'Your goals are my priority. I listen, advise honestly and never push a sale that isn\'t right for you.',
     icon: 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z',
   },
   {
@@ -21,7 +21,7 @@ const reasons = [
   },
   {
     title: 'Marketing Excellence',
-    description: 'Professional photography, drone footage, and targeted digital campaigns ensure maximum exposure.',
+    description: 'Professional photography, drone footage and targeted digital campaigns ensure maximum exposure.',
     icon: 'M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z',
   },
   {

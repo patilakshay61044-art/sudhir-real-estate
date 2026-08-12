@@ -9,7 +9,9 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
+
     window.addEventListener('scroll', handleScroll);
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -26,24 +28,31 @@ export default function Header() {
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
           ? 'bg-white/95 backdrop-blur-md shadow-md py-2.5'
-          : 'bg-white/80 backdrop-blur-sm py-4'
+          : 'bg-white/95 backdrop-blur-sm py-3'
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-5 lg:px-8">
+        
+        {/* BRANDING */}
         <a href="#home" className="flex flex-col leading-tight">
           <span className="font-serif text-2xl md:text-3xl font-bold text-brand-800">
             Sudhir Patil
           </span>
 
-          <span className="text-xs uppercase tracking-[0.2em] text-gray-500">
-            California REALTOR®
+          <span className="text-[11px] md:text-xs font-medium tracking-wide text-gray-700 mt-0.5">
+            Realtor | Sterling Nests
           </span>
 
-          <span className="text-[10px] text-gray-400 mt-1">
+          <span className="text-[11px] md:text-xs font-medium tracking-wide text-gray-700">
+            Property Manager | WeCare Asset
+          </span>
+
+          <span className="text-[10px] md:text-[11px] text-gray-500 mt-1">
             DRE #02387796
           </span>
         </a>
 
+        {/* DESKTOP NAVIGATION */}
         <nav className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -52,11 +61,13 @@ export default function Header() {
               className="text-sm font-medium text-gray-700 hover:text-brand-700 transition-colors relative group"
             >
               {link.label}
+
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-600 transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
         </nav>
 
+        {/* DESKTOP CONTACT */}
         <div className="hidden lg:flex items-center gap-4">
           <a
             href="tel:+14255333478"
@@ -74,6 +85,7 @@ export default function Header() {
           </a>
         </div>
 
+        {/* MOBILE MENU BUTTON */}
         <button
           className="lg:hidden p-2 text-gray-700"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -87,6 +99,7 @@ export default function Header() {
         </button>
       </div>
 
+      {/* MOBILE MENU */}
       {mobileOpen && (
         <div className="lg:hidden bg-white border-t border-gray-100 animate-fade-in">
           <nav className="flex flex-col px-6 py-4 gap-1">
