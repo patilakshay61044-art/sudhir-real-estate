@@ -71,8 +71,10 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="mt-7 flex flex-col sm:flex-row gap-3.5 animate-fade-up-delay-3">
+            
+            {/* Schedule Consultation */}
             <a
-              href="#contact"
+              href="#consultation-form"
               className="
                 bg-brand-600
                 text-white
@@ -95,6 +97,7 @@ export default function Hero() {
               Schedule a Free Consultation
             </a>
 
+            {/* Services */}
             <a
               href="#services"
               className="
@@ -120,7 +123,7 @@ export default function Hero() {
 
           {/* Trust Points */}
           <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-white/95 text-xs md:text-sm drop-shadow-lg">
-           </div>
+          </div>
         </div>
       </div>
 
