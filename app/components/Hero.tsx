@@ -45,7 +45,7 @@ export default function Hero() {
             <br />
             San Diego
             <br />
-            REALTOR®️
+            REALTOR<span className="text-white">®</span>
           </h1>
 
           {/* Description */}
@@ -63,9 +63,9 @@ export default function Hero() {
             "
           >
             Whether you&apos;re buying your first home, selling property,
-            exploring investment opportunities, or looking for professional
-            property management, I provide honest guidance, personalized
-            service, and local market expertise to help you make confident
+            exploring investment opportunities or looking for professional
+            property management. I provide honest guidance, personalized
+            service and local market expertise to help you make confident
             real estate decisions.
           </p>
 

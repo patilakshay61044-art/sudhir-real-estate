@@ -48,7 +48,7 @@ export default function Header() {
           </span>
 
           <span className="text-[10px] md:text-[11px] text-gray-500 mt-1">
-            DRE #02387796
+          
           </span>
         </a>
 

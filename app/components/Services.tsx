@@ -24,15 +24,15 @@ const services = [
     ],
   },
   {
-    title: "Real Estate Consultation",
+    title: "Property Management",
     description:
-      "Whether you are relocating, investing, or simply exploring your options, I provide honest advice and market insights to help you make informed real estate decisions.",
+      "For property management, we protect your asset with legal compliance, rigorous tenant screening and fast 24/7 emergency maintenance. Don’t risk your hard-earned equity on bad tenants or costly litigation—let us safeguard your property and secure your income.",
     image: "/images/real-estate.jpeg",
     features: [
-      "Market insights",
-      "Investment guidance",
-      "Local San Diego knowledge",
-      "Professional support",
+      "Tenant placement",
+      "Rent collection",
+      "Maintenance",
+      "Lease compliance",
     ],
   },
 ];
@@ -53,7 +53,7 @@ export default function Services() {
           </h2>
 
           <p className="text-gray-600 text-lg mt-5 leading-relaxed animate-fade-up-delay-2">
-            Whether you&apos;re buying, selling, or looking for professional
+            Whether you&apos;re buying, selling or looking for professional
             guidance, I am committed to providing honest advice, responsive
             communication and personalized service throughout your real estate
             journey.

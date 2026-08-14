@@ -76,39 +76,6 @@ export default function Contact() {
                   San Diego County
                 </p>
               </div>
-
-              {/* REALTOR License */}
-              <div>
-                <p className="text-brand-200 text-xs uppercase tracking-[0.15em] font-semibold">
-                  DRE
-                </p>
-
-                <p className="mt-1 font-semibold">
-                  #02387796
-                </p>
-              </div>
-
-              {/* Sterling Nests */}
-              <div className="pt-5 border-t border-white/10">
-                <p className="font-semibold">
-                  Sterling Nests
-                </p>
-
-                <p className="text-white/60 text-sm mt-1">
-                  DRE #02211620
-                </p>
-              </div>
-
-              {/* WeCare Asset */}
-              <div>
-                <p className="font-semibold">
-                  WeCare Asset
-                </p>
-
-                <p className="text-white/60 text-sm mt-1">
-                  Property Management
-                </p>
-              </div>
             </div>
 
             {/* Availability */}
@@ -118,8 +85,7 @@ export default function Contact() {
               </p>
 
               <p className="text-white/60 text-sm mt-1 leading-relaxed">
-                In-person and virtual consultations available throughout San
-                Diego County.
+                In-person and virtual consultations available.
               </p>
             </div>
           </div>

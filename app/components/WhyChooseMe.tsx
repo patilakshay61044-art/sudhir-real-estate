@@ -47,7 +47,7 @@ export default function WhyChooseMe() {
           </h2>
           <p className="text-white/70 text-lg mt-5 animate-fade-up-delay-2">
             I don&apos;t just sell homes — I build lasting relationships based on
-            trust, transparency, and results that exceed expectations.
+            trust, transparency and results that exceed expectations.
           </p>
         </div>
 

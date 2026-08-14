@@ -44,9 +44,7 @@ export default function Footer() {
                 Property Manager | WeCare Asset
               </p>
 
-              <p className="text-xs text-white/50 mt-2">
-                DRE #02387796
-              </p>
+              
             </div>
 
             <p className="text-white/60 mt-6 leading-relaxed max-w-md">
@@ -114,25 +112,22 @@ export default function Footer() {
               </li>
 
               <li className="flex items-start gap-3">
-                <span>📍</span>
-                <span>San Diego County, California</span>
+                <span></span>
+                <span>DRE #02387796</span>
               </li>
 
               <li className="pt-3 border-t border-white/10">
-                <p className="text-white/80 font-medium">
-                  DRE #02387796
-                </p>
+                <div>
+                  <p className="font-semibold text-white">
+                    Sterling Nests
+                  </p>
+
+                  <p className="text-white/60 text-sm mt-1">
+                    DRE #02211620
+                  </p>
+                </div>
               </li>
 
-              <li>
-                <p className="text-white/80 font-medium">
-                  Sterling Nests
-                </p>
-
-                <p className="text-white/45 text-sm mt-1">
-                  DRE #02211620
-                </p>
-              </li>
             </ul>
           </div>
         </div>
@@ -143,11 +138,11 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs md:text-sm text-white/40 text-center md:text-left">
 
           <p>
-            © {new Date().getFullYear()} Sudhir Patil. All Rights Reserved.
+            ©️ {new Date().getFullYear()} Sudhir Patil. All Rights Reserved.
           </p>
 
           <p>
-            REALTOR® • DRE #02387796
+        
           </p>
         </div>
       </div>
