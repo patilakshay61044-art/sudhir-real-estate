@@ -26,7 +26,7 @@ const services = [
   {
     title: "Property Management",
     description:
-      "For property management, we protect your asset with legal compliance, rigorous tenant screening and fast 24/7 emergency maintenance. Don’t risk your hard-earned equity on bad tenants or costly litigation—let us safeguard your property and secure your income.",
+      " We protect your asset with legal compliance, rigorous tenant screening and fast 24/7 emergency maintenance. Don’t risk your hard-earned equity on bad tenants or costly litigation—let us safeguard your property and secure your income.",
     image: "/images/real-estate.jpeg",
     features: [
       "Tenant placement",
