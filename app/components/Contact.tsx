@@ -216,16 +216,52 @@ export default function Contact() {
 
               {/* Submit */}
               <button
-                type="submit"
-                className="w-full bg-brand-700 text-white py-4 rounded-xl font-semibold text-base hover:bg-brand-800 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
-              >
-                Book Consultation
-              </button>
+  type="submit"
+  className="w-full bg-brand-700 text-white py-4 rounded-xl font-semibold text-base hover:bg-brand-800 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
+>
+  Book Consultation
+</button>
 
-              <p className="text-xs text-gray-400 text-center leading-relaxed">
-                By submitting this form, you agree to be contacted regarding
-                your real estate inquiry. Your information is never shared.
-              </p>
+{/* Terms & Conditions */}
+<div className="border border-gray-200 rounded-xl p-4 bg-gray-50">
+  <label className="flex items-start gap-3 cursor-pointer">
+    <input
+      type="checkbox"
+      name="terms"
+      required
+      className="mt-1 h-4 w-4 rounded border-gray-300 text-brand-700 focus:ring-brand-500"
+    />
+
+    <span className="text-sm text-gray-600 leading-relaxed">
+      I have read and agree to the Terms & Conditions
+      <span className="text-red-500 ml-1">*</span>
+    </span>
+  </label>
+</div>
+
+{/* SMS Consent */}
+<div className="border border-gray-200 rounded-xl p-4 bg-gray-50">
+  <label className="flex items-start gap-3 cursor-pointer">
+    <input
+      type="checkbox"
+      name="sms_consent"
+      className="mt-1 h-4 w-4 rounded border-gray-300 text-brand-700 focus:ring-brand-500"
+    />
+
+    <span className="text-sm text-gray-600 leading-relaxed">
+      By checking this box, I agree to receive SMS messages from Sudhir Patil
+      related to my real estate inquiry and services, including appointment
+      updates, service notifications, alerts, and other related communications.
+      Message frequency may vary. Message and data rates may apply. Reply STOP
+      to opt out or HELP for assistance.
+    </span>
+  </label>
+</div>
+
+<p className="text-xs text-gray-400 text-center leading-relaxed">
+  By submitting this form, you agree to be contacted regarding your real
+  estate inquiry. Your information is never shared.
+</p>
             </form>
           </div>
         </div>
