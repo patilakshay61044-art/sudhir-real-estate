@@ -3,6 +3,50 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 
+function InstagramIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden="true"
+    >
+      <rect
+        x="3"
+        y="3"
+        width="18"
+        height="18"
+        rx="5"
+        stroke="currentColor"
+        strokeWidth="2"
+      />
+      <circle
+        cx="12"
+        cy="12"
+        r="4"
+        stroke="currentColor"
+        strokeWidth="2"
+      />
+      <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+    </svg>
+  );
+}
+
+function FacebookIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden="true"
+    >
+      <path d="M13.5 21v-8h2.75l.4-3h-3.15V8.08c0-.87.24-1.46 1.5-1.46h1.8V3.94c-.31-.04-1.37-.14-2.61-.14-2.58 0-4.35 1.57-4.35 4.46V10H7v3h2.84v8h3.66Z" />
+    </svg>
+  );
+}
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -32,7 +76,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-5 lg:px-8">
-        
+
         {/* BRANDING */}
         <a href="#home" className="flex flex-col leading-tight">
           <span className="font-serif text-2xl md:text-3xl font-bold text-brand-800">
@@ -48,7 +92,6 @@ export default function Header() {
           </span>
 
           <span className="text-[10px] md:text-[11px] text-gray-500 mt-1">
-          
           </span>
         </a>
 
@@ -67,8 +110,32 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* DESKTOP CONTACT */}
+        {/* DESKTOP CONTACT + SOCIAL */}
         <div className="hidden lg:flex items-center gap-4">
+
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/californiarealestate_om/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="text-gray-600 hover:text-brand-700 transition-colors"
+          >
+            <InstagramIcon className="w-5 h-5" />
+          </a>
+
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/SudhirCaRealtor/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="text-gray-600 hover:text-brand-700 transition-colors"
+          >
+            <FacebookIcon className="w-5 h-5" />
+          </a>
+
+          {/* Phone */}
           <a
             href="tel:+14255333478"
             className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-brand-700 transition-colors"
@@ -77,6 +144,7 @@ export default function Header() {
             <span>(425) 533-3478</span>
           </a>
 
+          {/* CTA */}
           <a
             href="#contact"
             className="bg-brand-700 text-white px-7 py-3.5 rounded-full text-sm font-semibold hover:bg-brand-800 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 shadow-md shadow-brand-700/20"
@@ -103,6 +171,7 @@ export default function Header() {
       {mobileOpen && (
         <div className="lg:hidden bg-white border-t border-gray-100 animate-fade-in">
           <nav className="flex flex-col px-6 py-4 gap-1">
+
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -114,6 +183,32 @@ export default function Header() {
               </a>
             ))}
 
+            {/* SOCIAL LINKS */}
+            <div className="flex items-center gap-5 px-4 py-4 border-t border-gray-100 mt-2">
+
+              <a
+                href="https://www.instagram.com/californiarealestate_om/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="text-gray-600 hover:text-brand-700 transition-colors"
+              >
+                <InstagramIcon className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://www.facebook.com/SudhirCaRealtor/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="text-gray-600 hover:text-brand-700 transition-colors"
+              >
+                <FacebookIcon className="w-5 h-5" />
+              </a>
+
+            </div>
+
+            {/* PHONE */}
             <a
               href="tel:+14255333478"
               className="flex items-center gap-2 py-3 px-4 text-gray-700 font-medium"
@@ -122,6 +217,7 @@ export default function Header() {
               (425) 533-3478
             </a>
 
+            {/* CTA */}
             <a
               href="#contact"
               onClick={() => setMobileOpen(false)}
@@ -129,6 +225,7 @@ export default function Header() {
             >
               Get Started
             </a>
+
           </nav>
         </div>
       )}
