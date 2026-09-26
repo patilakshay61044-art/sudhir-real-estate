@@ -63,7 +63,7 @@ export default function Header() {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Services', href: '#services' },
-    { label: 'Service Area', href: '#areas' },
+    { label: 'Blog', href: '#blog' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -158,6 +158,7 @@ export default function Header() {
           className="lg:hidden p-2 text-gray-700"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
+          aria-expanded={mobileOpen}
         >
           {mobileOpen ? (
             <X className="w-6 h-6" />
@@ -172,6 +173,7 @@ export default function Header() {
         <div className="lg:hidden bg-white border-t border-gray-100 animate-fade-in">
           <nav className="flex flex-col px-6 py-4 gap-1">
 
+            {/* Navigation */}
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -183,35 +185,50 @@ export default function Header() {
               </a>
             ))}
 
-            {/* SOCIAL LINKS */}
-            <div className="flex items-center gap-5 px-4 py-4 border-t border-gray-100 mt-2">
+            {/* SOCIAL MEDIA */}
+            <div className="mt-3 pt-4 border-t border-gray-100 px-4">
 
-              <a
-                href="https://www.instagram.com/californiarealestate_om/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="text-gray-600 hover:text-brand-700 transition-colors"
-              >
-                <InstagramIcon className="w-5 h-5" />
-              </a>
+              <p className="text-xs uppercase tracking-[0.15em] font-semibold text-gray-500 mb-3">
+                
+              </p>
 
-              <a
-                href="https://www.facebook.com/SudhirCaRealtor/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
-                className="text-gray-600 hover:text-brand-700 transition-colors"
-              >
-                <FacebookIcon className="w-5 h-5" />
-              </a>
+              <div className="flex items-center gap-3">
 
+                {/* Instagram */}
+                <a
+                  href="https://www.instagram.com/californiarealestate_om/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-gray-50 text-gray-700 hover:bg-brand-50 hover:text-brand-700 transition-colors"
+                >
+                  <InstagramIcon className="w-5 h-5" />
+                  <span className="text-sm font-medium">
+                    Instagram
+                  </span>
+                </a>
+
+                {/* Facebook */}
+                <a
+                  href="https://www.facebook.com/SudhirCaRealtor/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-gray-50 text-gray-700 hover:bg-brand-50 hover:text-brand-700 transition-colors"
+                >
+                  <FacebookIcon className="w-5 h-5" />
+                  <span className="text-sm font-medium">
+                    Facebook
+                  </span>
+                </a>
+
+              </div>
             </div>
 
             {/* PHONE */}
             <a
               href="tel:+14255333478"
-              className="flex items-center gap-2 py-3 px-4 text-gray-700 font-medium"
+              className="flex items-center gap-2 py-3 px-4 mt-2 text-gray-700 font-medium"
             >
               <Phone className="w-4 h-4" strokeWidth={2} />
               (425) 533-3478
