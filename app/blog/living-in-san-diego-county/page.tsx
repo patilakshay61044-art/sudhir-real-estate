@@ -59,8 +59,8 @@ export default function SanDiegoLivingPage() {
           <p>
             From 70 miles of sun-drenched coastline to bustling tech hubs and
             scenic mountain foothills, San Diego County offers a lifestyle that
-            few places in the world can match. Known as "America's Finest
-            City," this dynamic region is far more than just a vacation
+            few places in the world can match. Known as &quot;America&apos;s Finest
+            City,&quot; this dynamic region is far more than just a vacation
             destination—it is a collection of distinct communities, each
             offering its own unique charm, architectural style, and pace of
             life.
@@ -249,7 +249,7 @@ export default function SanDiegoLivingPage() {
           </h2>
 
           <p className="mt-5">
-            San Diego is an outdoor enthusiast's paradise, offering thousands
+            San Diego is an outdoor enthusiast&apos;s paradise, offering thousands
             of acres of preserved natural space.
           </p>
 
@@ -333,7 +333,7 @@ export default function SanDiegoLivingPage() {
               <p className="mt-2">
                 San Diego’s top culinary neighborhood, packed with patio dining,
                 celebrity-chef concepts, artisanal bakeries, and a famous
-                weekly Farmers' Market.
+                weekly Farmers&apos; Market.
               </p>
             </div>
 
@@ -424,7 +424,7 @@ export default function SanDiegoLivingPage() {
 
           <p className="mt-5">
             Every corner of San Diego County offers a distinct lifestyle, price
-            point, and community atmosphere. Whether you're searching for a
+            point, and community atmosphere. Whether you&apos;re searching for a
             coastal retreat, an urban condo, or a spacious family home in a top
             school district, having expert local guidance makes all the
             difference.
@@ -454,7 +454,7 @@ export default function SanDiegoLivingPage() {
           </a>
 
           <p className="text-white/65 text-sm mt-4 max-w-xl mx-auto leading-relaxed">
-            Let's review your goals, analyze your buying power, and build a
+            Let&apos;s review your goals, analyze your buying power, and build a
             customized roadmap for your San Diego home search!
           </p>
         </div>
