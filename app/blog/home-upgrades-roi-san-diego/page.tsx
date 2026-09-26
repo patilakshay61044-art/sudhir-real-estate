@@ -57,7 +57,7 @@ export default function HomeUpgradesRoiSanDiegoPage() {
             thousands on full interior tear-outs that rarely recoup their cost.
             In competitive coastal and suburban enclaves like La Jolla, Carmel
             Valley, Carlsbad, Rancho Penasquitos, Rancho Bernardo, Scripps
-            Ranch, Poway and today's buyers are looking for move-in readiness,
+            Ranch, Poway and today&apos;s buyers are looking for move-in readiness,
             seamless indoor-outdoor living, and pristine curb appeal.
           </p>
 
@@ -202,7 +202,7 @@ export default function HomeUpgradesRoiSanDiegoPage() {
         {/* 2 */}
         <section className="mt-14">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900">
-            2. Minor Kitchen Refresh ("Quick Wins")
+            2. Minor Kitchen Refresh (&quot;Quick Wins&quot;)
           </h2>
 
           <p className="text-brand-700 font-semibold mt-4">
@@ -290,7 +290,7 @@ export default function HomeUpgradesRoiSanDiegoPage() {
           </p>
 
           <p className="text-gray-600 leading-relaxed mt-5">
-            You don't need to relocate plumbing or tear down walls to make a
+            You don&apos;t need to relocate plumbing or tear down walls to make a
             bathroom feel like a luxury spa.
           </p>
 
