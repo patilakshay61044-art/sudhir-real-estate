@@ -50,11 +50,11 @@ export default function SanDiegoRelocationPage() {
         {/* Introduction */}
         <section>
           <p className="text-gray-700 text-lg sm:text-xl leading-relaxed">
-            Relocating to San Diego County—whether you're moving across town
+          Relocating to San Diego County—whether you&apos;re moving across town
             from Downtown to North County or relocating from out of state—is an
             exciting milestone. With its year-round sunshine, diverse coastal
-            and inland neighborhoods, and thriving job market, "America's
-            Finest City" is an incredible place to call home.
+            and inland neighborhoods, and thriving job market, &quot;America&apos;s
+            Finest City&quot; is an incredible place to call home.
           </p>
 
           <p className="text-gray-700 text-lg sm:text-xl leading-relaxed mt-6">
@@ -177,7 +177,7 @@ export default function SanDiegoRelocationPage() {
 
             <div>
               <h3 className="font-semibold text-gray-900">
-                Update Home/Renter's Insurance
+              Update Home/Renter&apos;s Insurance
               </h3>
               <p className="text-gray-600 leading-relaxed mt-2">
                 Transfer your policy to cover your new address starting on your
@@ -230,7 +230,7 @@ export default function SanDiegoRelocationPage() {
               </h3>
               <p className="text-gray-600 leading-relaxed mt-2">
                 Pack a separate suitcase with 3 days of clothes, toiletries,
-                chargers, basic tools, pet food, and paper goods so you aren't
+                chargers, basic tools, pet food, and paper goods so you aren&apos;t
                 hunting through boxes on Night 1.
               </p>
             </div>
@@ -269,7 +269,7 @@ export default function SanDiegoRelocationPage() {
                 Update DMV & Voter Registration
               </h3>
               <p className="text-gray-600 leading-relaxed mt-2">
-                Complete California driver's license and vehicle registration
+              Complete California driver&apos;s license and vehicle registration
                 updates within required state timeframes.
               </p>
             </div>
@@ -378,10 +378,10 @@ export default function SanDiegoRelocationPage() {
 
                 <tr className="border-b border-gray-100">
                   <td className="px-5 py-4 text-gray-700">
-                    Driver's License Update
+                  Driver&apos;s License Update
                   </td>
                   <td className="px-5 py-4 text-gray-700">
-                    Apply for a CA Driver's License within 20 days
+                  Apply for a CA Driver&apos;s License within 20 days
                   </td>
                 </tr>
 
@@ -526,7 +526,7 @@ export default function SanDiegoRelocationPage() {
         {/* Final CTA */}
         <section className="mt-10 text-center">
           <p className="text-gray-600 text-lg leading-relaxed">
-            Moving doesn't have to be overwhelming when you have the right
+          Moving doesn&apos;t have to be overwhelming when you have the right
             local roadmap.
           </p>
 
