@@ -314,7 +314,7 @@ export default function RentingVsBuyingPage() {
           </h3>
 
           <p className="text-gray-600 leading-relaxed mt-4">
-          A good rule of thumb is to budget 1% of the home&apos;s value annually
+            A good rule of thumb is to budget 1% of the home's value annually
             for ongoing maintenance (roof repair, plumbing upgrades, exterior
             painting, appliances). On an $800,000 single-family home, set
             aside ~$650/month into a home maintenance reserve fund.
