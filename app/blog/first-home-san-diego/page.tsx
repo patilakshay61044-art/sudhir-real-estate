@@ -44,7 +44,7 @@ export default function FirstHomeSanDiegoPage() {
 
             <p className="text-white text-base sm:text-lg lg:text-xl leading-relaxed mt-6 max-w-3xl drop-shadow-md">
               Buying your first home in San Diego is an exciting milestone.
-              Here's a practical roadmap to help you understand the process
+              Here&apos;s a practical roadmap to help you understand the process
               from budgeting and financing to inspections and closing.
             </p>
           </div>
@@ -62,14 +62,14 @@ export default function FirstHomeSanDiegoPage() {
             financial milestones you will ever achieve. From the coastal
             communities of LA Jolla, Carlsbad and Encinitas to the vibrant
             neighborhoods of Carmel Valley, Rancho Penasquitos, Scripps Ranch
-            and Rancho Bernardo, owning a piece of "America's Finest City"
+            and Rancho Bernardo, owning a piece of &quot;America&apos;s Finest City&quot;
             offers both unmatched lifestyle benefits and long-term wealth
             building.
           </p>
 
           <p className="mt-5">
             However, navigating the local real estate market can feel
-            overwhelming if you don't have a clear plan. Between understanding
+            overwhelming if you don&apos;t have a clear plan. Between understanding
             down payment rules, estimating closing costs, and competing for
             local inventory, first-time buyers need a reliable roadmap.
           </p>
@@ -242,7 +242,7 @@ export default function FirstHomeSanDiegoPage() {
                 </h3>
 
                 <p className="mt-2">
-                  California's statewide flagship program offers deferred
+                California&apos;s statewide flagship program offers deferred
                   junior loans covering up to 3% to 3.5% of the purchase price
                   to assist with your down payment.
                 </p>
@@ -316,7 +316,7 @@ export default function FirstHomeSanDiegoPage() {
                 </h3>
 
                 <p className="mt-2">
-                  Fees for processing your loan and verifying the home's fair
+                 Fees for processing your loan and verifying the home&apos;s fair
                   market value.
                 </p>
               </div>
@@ -328,7 +328,7 @@ export default function FirstHomeSanDiegoPage() {
 
                 <p className="mt-2">
                   Upfront contributions to establish your escrow impound
-                  account for future property taxes and homeowner's insurance.
+                  account for future property taxes and homeowner&apos;s insurance.
                 </p>
               </div>
 
@@ -442,8 +442,8 @@ export default function FirstHomeSanDiegoPage() {
             </div>
 
             <p className="mt-6">
-              After your loan receives final underwriting approval ("Clear to
-              Close"), you will sign your final loan documents, wire your
+            After your loan receives final underwriting approval (&quot;Clear to
+              Close&quot;), you will sign your final loan documents, wire your
               remaining closing funds, and the county recorder will record your
               deed. Once recorded, the keys are officially handed over, and you
               are a San Diego homeowner!
@@ -462,7 +462,7 @@ export default function FirstHomeSanDiegoPage() {
           </h2>
 
           <p className="text-white/75 mt-4 max-w-2xl mx-auto leading-relaxed">
-            Navigating the San Diego real estate market doesn't have to be
+          Navigating the San Diego real estate market doesn&apos;t have to be
             stressful. Having an experienced local expert in your corner
             ensures you avoid costly mistakes and find the perfect home for
             your budget.
@@ -480,7 +480,7 @@ export default function FirstHomeSanDiegoPage() {
           </a>
 
           <p className="text-white/65 text-sm mt-4 max-w-xl mx-auto leading-relaxed">
-            Let's review your goals, analyze your buying power, and build a
+          Let&apos;s review your goals, analyze your buying power, and build a
             customized roadmap for your San Diego home search!
           </p>
         </div>
